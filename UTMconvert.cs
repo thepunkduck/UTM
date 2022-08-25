@@ -256,7 +256,7 @@ namespace SmashTheState
 
             // with fixed zone: (works out to be 55)
             // look at a map or use this method
-            var melb_lat = 37.8136;
+            var melb_lat = -37.8136;
             var melb_long = 144.9631;
             var requiredZoneNumber = UTM.GetZoneNumber(melb_lat, melb_long);
             var preferredHemisphere = HEMISPHERE.Southern;
